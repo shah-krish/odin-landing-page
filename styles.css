@@ -1,0 +1,36 @@
+.header{
+    background-color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px
+}
+a, .secondary{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.main{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.bottom{
+    display: flex;
+}
+.left, .right{
+    flex:1; 
+    padding: 10px;
+   
+}
+.right img{
+    max-width: 100%;
+    height: auto;
+}
